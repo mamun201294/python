@@ -1,0 +1,9 @@
+m=0
+n=0
+for i in range(100):
+    p=int(input())
+    if(p>m):
+        m=p
+        n=i
+print(m)
+print(n+1)
